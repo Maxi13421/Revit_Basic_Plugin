@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+ <AddIn Type="Application">
+       <Name>Lab1PlaceGroup</Name>
+       <FullClassName>Revit_Basic_Plugin.RevitBasicApplication</FullClassName>
+       <Text>Revit_Basic_Plugin</Text>
+       <Description>Creates a Dockable Pane which can interact with a server</Description>
+       <VisibilityMode>AlwaysVisible</VisibilityMode>
+       <Assembly>"PATH_TO_REPOSITORY\Revit_Basic_Plugin\src\Revit_Basic_Plugin\bin\Debug\net8.0-windows\Revit_Basic_Plugin.dll"</Assembly>
+       <AddInId>09c8456c-9699-4212-8491-1d6e574a22bc</AddInId>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+ </AddIn>
+</RevitAddIns>

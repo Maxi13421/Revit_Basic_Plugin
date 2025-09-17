@@ -1,0 +1,42 @@
+﻿<Page x:Class="DockableDialog.Forms.MainPage"
+        xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:dat="clr-namespace:System.Windows.Data;assembly=PresentationFramework"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        Title="Dockable Dialogs"  Height="500" Width="200"
+        x:Name="DockableDialogs"  Background="LightGray" Loaded="DockableDialogs_Loaded">
+ 
+
+  <StackPanel Margin="5">
+
+    <TextBlock x:Name="inputDescription" Text="Input:"
+                Margin="0,0,0,5" FontWeight="SemiBold"/>
+
+    <TextBox x:Name="inputTextBox"
+              TextWrapping="Wrap" AcceptsReturn="True"
+              VerticalScrollBarVisibility="Auto" Height="100" Margin="0,0,0,5"/>
+
+    <TextBlock x:Name="endpointDescription" Text="Endpoint Url:"
+                Margin="0,0,0,5" FontWeight="SemiBold"/>
+
+    <TextBox x:Name="endpointTextBox"
+              TextWrapping="Wrap" AcceptsReturn="True" Text="http://127.0.0.1:8000"
+              VerticalScrollBarVisibility="Auto" Height="100" Margin="0,0,0,5"/>
+
+    <Button x:Name="sendMessageButton" Content="Send Message"
+            HorizontalAlignment="Right" Width="100" Click="sendMessageButton_Click"/>
+
+
+    <TextBlock x:Name="readOnlyTextBlock" Text=""
+                Margin="0,0,0,5" FontWeight="SemiBold"/>
+  </StackPanel>
+
+
+</Page>
+
+
+
+
+
+

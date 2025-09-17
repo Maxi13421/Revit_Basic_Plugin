@@ -1,8 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>True</UseWindowsForms>
+    <UseWpf>True</UseWpf>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -16,5 +18,7 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
+
+  
 
 </Project>
